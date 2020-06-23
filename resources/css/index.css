@@ -1,0 +1,173 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: seashell;
+    text-align: center;
+
+}
+
+html {
+
+    font-size: 22px;
+    font-family: Helvetica, serif;
+    
+}
+
+/* 1st container (logo with nav links) */
+
+.tea_cozy {
+
+    height: 50px;
+    width: auto;
+    
+}
+
+li {
+
+    display: inline-block;
+        
+}
+
+.first_container {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    border-bottom: 1px solid seashell;
+
+}
+
+header {
+
+    position: fixed;
+    width: 100%;
+
+}
+
+/* 2nd container (mission) */
+
+.second_container {
+
+    display: flex;
+    height: 700px;
+    flex-direction: column;
+    min-width: 1200px;
+    background: url(../images/img-mission-background.jpg) no-repeat center;
+    justify-content: center;
+
+}
+
+.second_container h2, .second_container h4 {
+
+    border: 8px solid black;
+
+}
+
+/* 3rd container (5pics/products) */
+
+.third_container img {
+
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+
+}
+
+#featured_tea {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.third_container {
+
+    width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.tea_month {
+
+    margin-bottom: 10px;
+    
+}
+
+/* 4th container (locations) */
+
+.fourth_container {
+
+    background: url(../images/img-locations-background.jpg) no-repeat center; 
+    display: flex;
+    height: 500px;
+    padding-top: 70px;
+    margin: 70px auto;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.inside_container {
+
+    margin: 65px 20px;
+    padding: 10px;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    right: 80px;
+
+}
+
+.fourth_container h2 {
+
+    background-color: transparent;
+    height: 20px;
+    position: relative;
+    left: 535px;
+    
+}
+
+.inside_container h4 {
+
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-weight: normal;
+
+}
+
+.inside_container h3 {
+
+    margin: 45px;
+    font-weight: bold;
+
+}
+
+/* end of the page! */
+
+footer h5 {
+
+    font-weight: bold;
+    margin: 30px;
+
+}
+
+.last_container {
+
+    height: 200px;
+    margin-top: -60px;
+
+}
+
+.copyright {
+
+    position: relative;
+    float: left;
+    margin-left: 20px;
+
+}
