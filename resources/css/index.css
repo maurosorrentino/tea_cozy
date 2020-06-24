@@ -119,17 +119,13 @@ header {
     flex-direction: column;
     width: 300px;
     height: 300px;
-    position: relative;
-    right: 80px;
 
 }
 
 .fourth_container h2 {
 
     background-color: transparent;
-    height: 20px;
-    position: relative;
-    left: 535px;
+    position: absolute;
     
 }
 
